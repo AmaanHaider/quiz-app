@@ -4,7 +4,6 @@ import { decode } from "html-entities";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
-// import { useHistory } from "react-router";
 import { useNavigate } from "react-router-dom";
 import useAxios from "../hooks/useAxios";
 import { handleScoreChange } from "../redux/action";
