@@ -28,7 +28,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Container maxWidth="sm" sx={{backgroundColor:"#f8f0e5"}} > 
+      <Container maxWidth="sm" > 
         <Box textAlign="end">
           <Button variant="contained" onClick={handleSignOut}>
             sign Out
