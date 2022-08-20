@@ -31,7 +31,7 @@ const SelectField = (props) => {
   };
 
   return (
-    <Box mt={3} width="100%"  sx={{backgroundColor:"#f8f0e5"}} >
+    <Box mt={3} width="100%"   >
       <FormControl size="small" fullWidth>
         <InputLabel>{label}</InputLabel>
         <Select value={value} label={label} onChange={handleChange}>
