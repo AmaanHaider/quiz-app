@@ -10,7 +10,7 @@ const LoginPage = () => {
 
   return (
     <Container maxWidth="sm">
-      <Box mt={40} textAlign="center">
+      <Box mt={40}  textAlign="center">
         <Button  onClick={() => signInWithGoogle("", { prompt: "select_account" })}  variant="contained">Login with Google</Button>
       </Box>
     </Container>
