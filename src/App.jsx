@@ -28,13 +28,13 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Container maxWidth="sm">
+      <Container maxWidth="sm" sx={{backgroundColor:"#f8f0e5"}} > 
         <Box textAlign="end">
           <Button variant="contained" onClick={handleSignOut}>
             sign Out
           </Button>
         </Box>
-        <Box textAlign="center"  sx={{backgroundColor:"#f8f0e5"}}   mt={5}>
+        <Box textAlign="center"     mt={5}>
           <Routes>
             <Route path="/" element={<Settings />} />
             <Route path="/questions" element={<Question />} />
